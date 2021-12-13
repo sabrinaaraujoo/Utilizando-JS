@@ -21,6 +21,20 @@ body{
     color: #ef5350;
 }
 
+.main input[type=text]{
+    width: 30%;
+    height: 30px;
+}
+
+.main > button{
+    height: 30px;
+    background-color: aqua;
+    border: 0;
+    width: 60px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
 .pokemon-boxes{
     margin: 20px 0;
     display: flex;
